@@ -11,7 +11,7 @@ export default function SideBar() {
     return <>
     {["md"].map((expand) => (
       <Navbar key={expand} expand={expand} className="  ">
-        <Container fluid  >
+        <div  >
          
           <Navbar.Toggle id='SideBar' aria-controls={`offcanvasNavbar-expand-${expand}`} />
           <Navbar.Offcanvas
@@ -36,7 +36,7 @@ export default function SideBar() {
         
             
           </Navbar.Offcanvas>
-        </Container>
+        </div>
       </Navbar>
     ))}
   </>

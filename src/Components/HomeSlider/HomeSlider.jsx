@@ -19,10 +19,10 @@ export default function HomeSlider() {
     arrows:false,
     appendDots: dots => (
         <div
-          className='relative w-full '
+          className='relative  '
         >
         
-          <ul className='absolute top-[-50px] left-[50%] transform  -translate-x-1/2 ' style={{ margin: "0px" }}> {dots} </ul>
+          <ul className='absolute w-full top-[-50px] left-[50%] transform  -translate-x-1/2 ' style={{ margin: "0px" }}> {dots} </ul>
         </div>
       ),
   

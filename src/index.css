@@ -36,6 +36,14 @@ body{
   font-style: normal;
 }
 
+
+.btn:hover{
+  border: 1px solid var(--mainColor) !important ;
+  background-color: transparent !important;
+  color: var(--mainColor) !important;
+
+}
+
 /* navHover */
 .navHover{
   position: relative;
@@ -90,4 +98,44 @@ body{
 .slick-dots li.slick-active div{
   background-color: var(--mainColor) !important;
   border: 1px solid white;
+}
+
+/* arrow of product slider */
+
+.slick-prev::before{
+  content: "" ;
+  background-image: url("./assets/icons_arrow-left.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #F5F5F5;
+  /* top: -30px; */
+}
+
+.slick-next::before{
+  content: "" ;
+  background-image: url("./assets/slider-arrow-right.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #F5F5F5;
+  /* bottom: 200px; */
+}
+
+.slick-prev:before{
+  content: "" !important;
+}
+.slick-next:before{
+  content: "" !important;
+}
+
+
+.shadowBOOMBOX{
+  filter: drop-shadow(0px 0px 60px rgba(255, 255, 255, 0.527));
 }
