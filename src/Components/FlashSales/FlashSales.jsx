@@ -82,8 +82,8 @@ export default function FlashSales() {
       </div>
       
       <Slider {...settings} >
-         {FlashSales.map((item) => (
-            <ProductCard item ={item}/>
+         {FlashSales.map((item ) => (
+            <ProductCard item ={item} key={item.id}/>
        
         ))}
       </Slider>

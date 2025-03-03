@@ -96,7 +96,7 @@ export default function ProductContextProvider(props){
             rating: 4.6,
             reviews: 99
           }, {
-            id: 1,
+            id: 5,
             name: "HAVIT HV-G92 Gamepad",
             image: product1,
             price: 120,
@@ -106,7 +106,7 @@ export default function ProductContextProvider(props){
             reviews: 88
           },
           {
-            id: 2,
+            id: 6,
             name: "AK-900 Wired Keyboard",
             image: product2,
             price: 960,

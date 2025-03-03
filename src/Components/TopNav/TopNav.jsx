@@ -16,7 +16,7 @@ export default function TopNav() {
 
       <div className="dropdown  z-10  md:absolute md:right-[20px]  lg:right-[10%] md:top-1/2 md:transform md:-translate-y-1/2">
         <button
-          className="btn btn-secondary text-[14px] font-poppins p-1 bg-black border-none  "
+          className="  text-[14px] font-poppins p-1 bg-black border-none  "
           type="button"
           data-bs-toggle="dropdown"
           aria-expanded="false"

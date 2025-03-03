@@ -37,7 +37,7 @@ export default function HomeSlider() {
 
   return (
     <Slider {...settings} className=' flex items-center justify-center '>
-    {loop.map((item)=><div className='w-full flex flex-col md:flex-row  bg-black py-5 px-2 items-center'>
+    {loop.map((item ,index)=><div key={index} className='w-full flex flex-col md:flex-row  bg-black py-5 px-2 items-center'>
         <div className='w-full md:w-1/2 md:order-2 '> 
         <img src={iphone} className=' w-full' alt="" />
 

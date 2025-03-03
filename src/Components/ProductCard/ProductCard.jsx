@@ -3,10 +3,15 @@ import FiveStar from "../../assets/products/Five star.svg";
 import HalfStar from "../../assets/products/Four Half Star.svg";
 import FillHeart from "../../assets/Fill Heart.svg";
 import FillEye from "../../assets/Fill Eye.svg";
+import remove from "../../assets/remove.svg";
 
-export default function ProductCard({ item , green , showBtn}) {
+export default function ProductCard({ item , green , showBtn , showRemove , showEye}) {
   const [changeColor, setchangeColor] = useState(green ? true : false)
-  const [showColor, setahowColor] = useState(showBtn ? true : false)
+  const [showColor, setshowColor] = useState(showBtn ? true : false)
+  const [removeIcon, setremoveIcon] = useState(showRemove ? true : false)
+  const [eyeIcon, seteyeIcon] = useState(showEye ? true : false)
+
+  
   return (
     <>
       <div className="p-3">
@@ -21,14 +26,28 @@ export default function ProductCard({ item , green , showBtn}) {
                 src={item?.image}
                 alt=""
               />
+              {removeIcon ? <div className="absolute right-3 top-3 flex flex-col gap-1  ">
+                <img
+                  className=" size-8 cursor-pointer"
+                  src={remove}
+                  alt=""
+                />
+                
+              </div> : eyeIcon ?
               <div className="absolute right-3 top-3 flex flex-col gap-1  ">
+              
+                <img className="size-8 cursor-pointer" src={FillEye} alt="" />
+              </div> : <div className="absolute right-3 top-3 flex flex-col gap-1  ">
                 <img
                   className=" size-8 cursor-pointer"
                   src={FillHeart}
                   alt=""
                 />
                 <img className="size-8 cursor-pointer" src={FillEye} alt="" />
-              </div>
+              </div>}
+              
+             
+
             </div>
 
             <div className="opacity-0 group-hover:opacity-100  transition-all duration-[0.5s]  w-full bg-black text-white p-2 text-center cursor-pointer">

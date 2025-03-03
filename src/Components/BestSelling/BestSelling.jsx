@@ -23,9 +23,9 @@ export default function BestSelling() {
   
      <div className="row sm:mx-auto mx-0">
          {BestSelling.map((item) => (
-            <div className='w-full md:w-1/3 lg:w-1/4'>
+            <div className='w-full md:w-1/3 lg:w-1/4' key={item.id}>
 
-                <ProductCard item ={item}/>
+                <ProductCard item ={item} />
             </div>
      
       ))}

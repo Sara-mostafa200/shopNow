@@ -4,8 +4,9 @@ import SideBar from '../SideBar/SideBar'
 import { ProductContext } from '../../context/productContext'
 
 export default function Hero() {
+  
   return (
-    <div className='flex justify-between relative items-center'>
+    <div className='flex justify-between relative items-center z-30'>
          <div className='absolute md:relative  top-1 left-1  z-10 '>
          <SideBar/>
    

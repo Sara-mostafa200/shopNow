@@ -1,7 +1,4 @@
 import React, { useContext } from 'react'
-import HomeSlider from '../HomeSlider/HomeSlider'
-import SideBar from '../SideBar/SideBar'
-import { ProductContext } from '../../context/productContext'
 import Hero from '../Hero/Hero';
 import FlashSales from '../FlashSales/FlashSales';
 import Categories from '../Categories/Categories';
@@ -12,7 +9,10 @@ import Featured from '../Featured/Featured';
 import Service from '../Service/Service';
 
 export default function Home() {
- let{first} = useContext(ProductContext);
+
+ function toTop(){
+  window.scrollTo({top:0 , behavior:"smooth"})
+}
  
   return (
     <>
@@ -26,6 +26,10 @@ export default function Home() {
     <OurProducts/>
     <Featured/>
     <Service/>
+    <div onClick={()=>toTop()} className='cursor-pointer size-8 bg-lineColor rounded-full flex items-center justify-center fixed bottom-3 right-2'>
+    <i className="fa-solid fa-arrow-up"></i>
+
+    </div>
 
     </>
    

@@ -82,16 +82,16 @@ export default function OurProducts() {
       
       <Slider {...settings} >
          {FlashSales.map((item) => (
-            <ProductCard item ={item}/>
+            <ProductCard item ={item} key={item.id}/>
        
         ))}
       </Slider>
 
       <div className="row sm:mx-auto mx-0">
                {BestSelling.map((item) => (
-                  <div className='w-full md:w-1/3 lg:w-1/4'>
+                  <div className='w-full md:w-1/3 lg:w-1/4' key={item.id}>
       
-                      <ProductCard item ={item} green={true} showBtn={true}/>
+                      <ProductCard item ={item} green={true} showBtn={true} />
                   </div>
            
             ))}
