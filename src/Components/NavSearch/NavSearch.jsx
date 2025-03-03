@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Form } from 'react-bootstrap'
 import searchIcon from '../../assets/searchIcon.svg'
-import wishlistIcon from '../../assets/wishlist.svg'
+import wishlistIcon from '../../assets/wishList.svg'
 import CartIcon from '../../assets/Cart1.svg'
 import { Link } from 'react-router-dom'
 
