@@ -14,18 +14,18 @@ export default function TopNav() {
         <span className="font-[600] ml-2 underline cursor-pointer ">ShopNow</span>
       </span>
 
-      <div class="dropdown  z-10  md:absolute md:right-[20px]  lg:right-[10%] md:top-1/2 md:transform md:-translate-y-1/2">
+      <div className="dropdown  z-10  md:absolute md:right-[20px]  lg:right-[10%] md:top-1/2 md:transform md:-translate-y-1/2">
         <button
-          class="btn btn-secondary text-[14px] font-poppins p-1 bg-black border-none  "
+          className="btn btn-secondary text-[14px] font-poppins p-1 bg-black border-none  "
           type="button"
           data-bs-toggle="dropdown"
           aria-expanded="false"
         >
-          English <i class="fa-solid fa-angle-down ml-1"></i>
+          English <i className="fa-solid fa-angle-down ml-1"></i>
         </button> 
-        <ul class="dropdown-menu p-1">
+        <ul className="dropdown-menu p-1">
           <li >
-            <span class="dropdown-item text-[14px] font-poppins " >
+            <span className="dropdown-item text-[14px] font-poppins " >
             Arabic
             </span>
           </li>
