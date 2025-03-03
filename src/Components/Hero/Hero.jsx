@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import HomeSlider from '../HomeSlider/HomeSlider'
 import SideBar from '../SideBar/SideBar'
-import { ProductContext } from '../../context/productContext'
+import { ProductContext } from '../../Context/productContext'
 
 export default function Hero() {
   

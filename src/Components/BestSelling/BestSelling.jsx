@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { ProductContext } from "../../context/productContext";
+import { ProductContext } from "../../Context/productContext";
 import ProductCard from '../ProductCard/ProductCard';
 
 export default function BestSelling() {

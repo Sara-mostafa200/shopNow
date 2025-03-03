@@ -7,7 +7,7 @@ import SignUp from './Components/SignUp/SignUp'
 import Cart from './Components/Cart/Cart'
 import Wishlist from './Components/Wishlist/Wishlist'
 import Checkout from './Components/Checkout/Checkout'
-import ProductContextProvider from './context/productContext'
+import ProductContextProvider from './Context/productContext'
 function App() {
   let router = createBrowserRouter([
     {path:'/' , element:<Layout/> , children:[
