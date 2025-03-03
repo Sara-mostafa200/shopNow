@@ -1,12 +1,35 @@
-# React + Vite
+# Exclusive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A product display website built with React.js and Vite, allowing users to browse products, add them to Wishlist or Cart, and proceed to Checkout.
 
-Currently, two official plugins are available:
+### Technologies Used
+- React.js with Vite for a fast development experience
+- React Router DOM for navigation
+- React Bootstrap & Tailwind CSS for styling
+- Context API for state management without API
+- Slick Slider for smooth product displays
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Features
+- Clean and user-friendly product listing
+- Add products to Wishlist and Cart
+- Checkout page for completing purchases
+- Fast performance and smooth user experience
+- Fully Responsive Design
 
-## Expanding the ESLint configuration
+ ### Getting Started
+ 1- Clone the Repository
+  ```
+ git clone https://github.com/Sara-mostafa200/shopNow.git
+ cd shopNow
+ ```
+ 2- Install Dependencies
+ ```
+ npm install
+ ```
+ 3- Run the Project Locally
+ ```
+ npm run dev
+ ```
+### Live Demo
+[Exclusive](https://exclusive-three-murex.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
