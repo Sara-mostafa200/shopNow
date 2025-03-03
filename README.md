@@ -1,4 +1,4 @@
-# Exclusive
+# [Exclusive](https://exclusive-three-murex.vercel.app/)
 
 A product display website built with React.js and Vite, allowing users to browse products, add them to Wishlist or Cart, and proceed to Checkout.
 
@@ -30,6 +30,6 @@ A product display website built with React.js and Vite, allowing users to browse
  ```
  npm run dev
  ```
-### Live Demo
-[Exclusive](https://exclusive-three-murex.vercel.app/)
+### [Live Demo](https://exclusive-three-murex.vercel.app/)
+
 
